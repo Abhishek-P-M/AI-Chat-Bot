@@ -11,7 +11,9 @@ o	Its main job is to receive the request and forward it to the python the Python
 3.	Python FastAPI and LLM
 o	It receives the request and contacts the Large Language Model (LLM) to generate a helpful, human-like response.
 o	Since generating a good answer can take a moment, we added an 60 second network timeout to ensure the process never fails.
+
 Example Inputs and Outputs
+
 The following examples confirm that the entire connection pipeline, from the android app’s input to the LLM response in the app is functional.
 Input (User Question)	Output (Bot Response)	Status
 What is the status of my order?	I'd be happy to check that for you! Your order, #1, is currently marked as 'Out for Delivery' and should arrive within the next 30 minutes.	SUCCESS
